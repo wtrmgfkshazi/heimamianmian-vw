@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	cursor: pointer;
+	text-decoration: none;
+	color: #333;
+}
+
+li{
+	list-style: none;
+}
