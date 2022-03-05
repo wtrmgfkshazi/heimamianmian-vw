@@ -115,7 +115,7 @@ body {
     transition: 300ms;
     transform: scale(0.8);
     opacity: .4;
-    p{
+    p {
         display: none;
     }
 }
@@ -124,7 +124,7 @@ body {
 .swiper-slide-duplicate-active {
     transform: scale(1);
     opacity: 1;
-     p{
+    p {
         display: block;
     }
 }
@@ -164,15 +164,15 @@ body {
     width: 100vw;
     background-color: #fff;
     .section-nav-bd {
-        position: relative;
-        overflow: hidden;
+        overflow-x: scroll;
+        overflow-y: hidden;
         margin: 5vw 0;
         width: 100%;
         height: 45vw;
+        &::-webkit-scrollbar{
+            display: none;
+        }
         .section-nav-ul {
-            position: absolute;
-            top: 0;
-            left: 0;
             display: flex;
             width: 400%;
             height: 45vw;
